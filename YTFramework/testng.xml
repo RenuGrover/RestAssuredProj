@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.testing.Base.Base"/>
+      <class name="org.testing.testScripts.TC4_SiginPlayLike"/>
+      <class name="org.testing.testScripts.TC2_SiginHistory"/>
+      <class name="org.testing.testScripts.TC6_SiginComments"/>
+      <class name="org.testing.testScripts.TC5_SiginChanlSubsc"/>
+      <class name="org.testing.testScripts.TC3_SiginSubscription"/>
+      <class name="org.testing.testScripts.TC1_Sigin"/>
+      <class name="org.testing.testScripts.TC7_SiginWatchLater"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
